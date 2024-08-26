@@ -1,0 +1,104 @@
+.left,.right {
+  width: 50%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px;
+  height: 500px;
+  min-width: 900px;
+}
+
+.left {
+  background-image: url('../images/mission-vission.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.body-logo {
+  width: 130px;
+  height: 130px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: var(--blue);
+  padding: 20px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.auth-input {
+  border: solid 1px;
+  background-color: var(--skyblue);
+  font-size: 16px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.name-input,.password-input {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  gap: 10px;
+}
+.submit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.submit-button {
+  background-color: var(--orange);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: 200ms;
+  width: 200px;
+}
+
+.submit-button:hover {
+  background-color: #d05707;
+}
+
+.err-msg {
+  margin-right: 40px;
+  align-self: flex-end;
+}
+
+.show-password {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  font-size: 12px;
+}
+
+.show-password input {
+  cursor: pointer;
+}

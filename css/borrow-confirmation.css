@@ -1,0 +1,81 @@
+.confirmation-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 20px;
+}
+
+.borrowed-book-list {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+}
+
+.left,.right {
+  width: 50%;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blue);
+  color: white;
+  font-size: 24px;
+  padding: 30px;
+}
+
+.right {
+  background-color: white;
+  color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  overflow: hidden;
+  scrollbar-gutter: stable;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.right:hover {
+  overflow: auto;
+}
+
+.reservation-details {
+  height: 70%;
+}
+
+.top {
+  background-color: var(--blue);
+  color: white;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.bottom {
+  color: var(--blue);
+  background-color: white;
+  padding: 20px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: var(--blue);
+  color: white;
+  gap: 10px;
+}
+
+.message-title {
+  font-size: 36px;
+}
+
+.check {
+  width: 70px;
+}

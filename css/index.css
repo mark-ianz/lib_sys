@@ -1,0 +1,28 @@
+.main-bottom {
+  gap: 40px;
+
+  align-items: center;
+  justify-content: center;
+
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button-container button {
+  background-color: var(--blue);
+  border: none;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+  width: 400px;
+}
+
+.button-container button:hover {
+  background-color: rgb(32, 95, 154);
+}

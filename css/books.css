@@ -1,0 +1,48 @@
+main {
+  max-width: 600px;
+}
+
+.main-bottom {
+  position: relative;
+  height: auto;
+}
+
+.book-main-container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 20px;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.book-title {
+  font-size: 24px;
+}
+
+.viewed-book-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--blue);
+}
+
+.close-button {
+  top: 20px;
+  right: 20px;
+}
+

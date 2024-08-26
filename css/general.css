@@ -1,0 +1,129 @@
+:root {
+  --blue: #004e98;
+  --gray: #C0C0C0;
+  --orange: #FF6700;
+  --skyblue: #bedfff;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  padding: 25vh 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+.bottom-line-input {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px;
+}
+
+.white {
+  color: white;
+  
+}
+
+.red {
+  color: red;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.black {
+  color: black;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+.filter-green {
+  filter: invert(19%) sepia(98%) saturate(3298%) hue-rotate(96deg) brightness(99%) contrast(104%);
+}
+
+.arrow-down {
+  width: 10px;
+  height: 10px;
+}
+
+.default-anchor {
+  text-decoration: none;
+  color: inherit;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.orange-bg {
+  background-color: var(--orange);
+}
+
+.white-filter {
+  filter: invert(100%) sepia(0%) saturate(442%) hue-rotate(166deg) brightness(120%) contrast(1000%);
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 48px;
+}
+
+.subtext {
+  font-size: 12px;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+main {
+  width: 50vw;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

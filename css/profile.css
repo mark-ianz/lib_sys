@@ -1,0 +1,97 @@
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  max-width: 600px;
+}
+
+.container {
+  background-image: url('../images/mission-vission.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 50px;
+  gap: 50px;
+  position: relative;
+  max-width: 600px;
+}
+
+
+.body-logo {
+  width: 130px;
+  height: 130px;
+}
+
+.user-container {
+  background-color: white;
+  color: var(--blue);
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.hr {
+  border-bottom: solid 1px var(--blue);
+  width: 100%;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 150px;
+  overflow: hidden;
+  scrollbar-gutter: stable;
+  list-style-type: none;
+}
+
+.book-list li {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.book-title-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.book-list:hover {
+  overflow: auto;
+}
+
+.book-list a {
+  text-decoration: underline;
+}
+
+.close-button {
+  position: absolute;
+  border: solid 1px white;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  transition: 200ms;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+}
+
+.close-button:hover {
+  background-color: rgba(255, 255, 255, 0.276);
+}
